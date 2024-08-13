@@ -3,8 +3,8 @@ from django.shortcuts import get_object_or_404
 from datetime import datetime
 
 class Reserva(models.Model):
-    fecha_entrada = models.DateTimeField()
-    fecha_salida = models.DateTimeField()
+    fecha_entrada = models.CharField(max_length=10)
+    fecha_salida = models.CharField(max_length=10) 
 
     def crearreserva(self, fecha_entrada, fecha_salida):
         reserva = Reserva(fecha_entrada=fecha_entrada, fecha_salida=fecha_salida)

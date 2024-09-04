@@ -225,3 +225,32 @@
   .rooms-section h2 {
     text-shadow: 1px 1px 0 #000; /* Contorno negro fino */
   }
+  .about-section h2 {
+    text-shadow: 1px 1px 0 #000; /* Contorno negro fino */
+  }
+  
+  .testimonials-section h2 {
+    text-shadow: 1px 1px 0 #000; /* Contorno negro fino */
+  }
+  
+  .contact-section h2 {
+    text-shadow: 1px 1px 0 #000; /* Contorno negro fino */
+  }
+  
+  .contact-form label {
+    text-shadow: 1px 1px 0 #000; /* Contorno negro fino */
+  }
+  
+  /* Fondos de las secciones específicas */
+  .about-section {
+    background: linear-gradient(135deg, #ff69b4, #d3a5c1, #e6e6fa);
+  }
+  
+  .testimonials-section {
+    background: linear-gradient(135deg, #ff6347, #ff69b4, #ff4500, #d3a5c1, #e6e6fa);
+  }
+  
+  .contact-section {
+    background: linear-gradient(135deg, #d3a5c1, #ff69b4, #e6e6fa);
+  }
+  

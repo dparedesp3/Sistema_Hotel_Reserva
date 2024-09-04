@@ -58,4 +58,44 @@
     background-position: center;
     border-radius: 20px; /* Esquinas ovaladas */
   }
+    .carousel-item.active {
+    display: block;
+  }
   
+  .carousel-caption {
+    position: absolute;
+    bottom: 20%;
+    left: 10%;
+    color: #fff;
+    text-shadow: 1px 1px 0 #000; /* Contorno negro fino */
+  }
+  
+  .carousel-caption h2 {
+    font-size: 3em;
+    margin-bottom: 10px;
+  }
+  
+  .btn-primary {
+    background-color: #f3c614;
+    color: #1a1a2e;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20px; /* Esquinas ovaladas */
+    transition: background-color 0.3s;
+  }
+  
+  .btn-primary:hover {
+    background-color: #d4a017;
+  }
+  
+  .rooms-section {
+    padding: 60px 20px;
+    background: linear-gradient(135deg, #800080, #0000ff);
+    border-radius: 20px; /* Esquinas ovaladas */
+  }
+  
+  .rooms-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+  }

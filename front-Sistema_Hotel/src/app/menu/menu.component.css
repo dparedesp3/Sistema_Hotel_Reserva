@@ -1,0 +1,61 @@
+
+/* Diseño general */
+.container {
+    font-family: 'Roboto', sans-serif;
+    color: #fff;
+    line-height: 1.6;
+    background: linear-gradient(to right, #800080, #ffffff, #ff0000, #ff1493, #0000ff);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+    border-radius: 20px; /* Esquinas ovaladas */
+    overflow: hidden; /* Asegura que las esquinas redondeadas se muestren correctamente */
+    padding: 20px; /* Agrega algo de espacio alrededor del contenido */
+  }
+  
+  @keyframes gradient {
+    0% { background-position: 0% 0%; }
+    50% { background-position: 100% 100%; }
+    100% { background-position: 0% 0%; }
+  }
+  
+  .header {
+    background-color: rgba(0, 0, 0, 0.6);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    border-radius: 20px; /* Esquinas ovaladas */
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 2.5em;
+    text-shadow: 1px 1px 0 #000; /* Contorno negro fino */
+  }
+  
+  .hero-section {
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+    border-radius: 20px; /* Esquinas ovaladas */
+  }
+  
+  .carousel {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 100%;
+  }
+  
+  .carousel-item {
+    display: none;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px; /* Esquinas ovaladas */
+  }
+  

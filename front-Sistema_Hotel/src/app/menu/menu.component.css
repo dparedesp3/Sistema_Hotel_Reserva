@@ -58,7 +58,10 @@
     background-position: center;
     border-radius: 20px; /* Esquinas ovaladas */
   }
+<<<<<<< HEAD
   
+=======
+>>>>>>> 85a41a752e5d872c905cb18025fab730ae60ee25
   .carousel-item.active {
     display: block;
   }
@@ -100,7 +103,10 @@
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
     gap: 20px;
   }
+<<<<<<< HEAD
   
+=======
+>>>>>>> 85a41a752e5d872c905cb18025fab730ae60ee25
   .room-card {
     background: linear-gradient(135deg, #ff69b4, #ff6347, #ff4500, #ff1493, #e6e6fa);
     color: #fff;
@@ -155,8 +161,13 @@
     border-radius: 20px; /* Esquinas ovaladas */
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
   }
+<<<<<<< HEAD
   
   .testimonials-section h2 {
+=======
+
+ .testimonials-section h2 {
+>>>>>>> 85a41a752e5d872c905cb18025fab730ae60ee25
     text-shadow: 1px 1px 0 #000; /* Contorno negro fino */
   }
   
@@ -227,7 +238,10 @@
   .rooms-section h2 {
     text-shadow: 1px 1px 0 #000; /* Contorno negro fino */
   }
+<<<<<<< HEAD
   
+=======
+>>>>>>> 85a41a752e5d872c905cb18025fab730ae60ee25
   .about-section h2 {
     text-shadow: 1px 1px 0 #000; /* Contorno negro fino */
   }
@@ -256,4 +270,8 @@
   .contact-section {
     background: linear-gradient(135deg, #d3a5c1, #ff69b4, #e6e6fa);
   }
+<<<<<<< HEAD
   
+=======
+  
+>>>>>>> 85a41a752e5d872c905cb18025fab730ae60ee25
